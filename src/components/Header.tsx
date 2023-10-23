@@ -1,13 +1,13 @@
 import { Layout, Col, Row } from "antd";
 import React from "react";
 import logo from "../../assets/logo.png";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 
 const Header: React.FC = () => {
   return (
     <Layout.Header
       style={{
-        backgroundColor: "red",
+        backgroundColor: "#fff",
         top: 0,
         zIndex: 1,
         width: "100%",
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
         </Col>
         <Col>
           <div>
-            <h1> Movie Review App</h1>
+            <h1> Money Market</h1>
           </div>
         </Col>
         <Col
