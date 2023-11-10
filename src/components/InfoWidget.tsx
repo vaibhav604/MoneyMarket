@@ -74,7 +74,7 @@ const InfoWidget: React.FC = () => {
         }}
       >
         <Image
-          src="src\assets\Promo.png"
+          src="..\assets\Promo.png"
           preview={false}
           // height={"calc(100% - 70px)"}
           width={"100%"}
