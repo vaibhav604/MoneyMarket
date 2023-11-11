@@ -1,6 +1,6 @@
 import { Layout, Col, Row } from "antd";
 import React from "react";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import Navbar from "./Navbar";
 
 const Header: React.FC = () => {
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <Row gutter={10}>
         <Col>
           <div className="logo">
-            <img src={logo} alt="logo" height={30} />
+            <img src={"/assets/logo.png"} alt="logo" height={30} />
           </div>
         </Col>
         <Col>
