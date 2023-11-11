@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         }}
       >
         <Image
-          src="/assets/logo.png"
+          src="/MoneyMarket/assets/logo.png"
           preview={false}
           height={"50px"}
           width={"50px"}

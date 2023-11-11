@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <Row gutter={10}>
         <Col>
           <div className="logo">
-            <img src={"/assets/logo.png"} alt="logo" height={30} />
+            <img src={"/MoneyMarket/assets/logo.png"} alt="logo" height={30} />
           </div>
         </Col>
         <Col>
